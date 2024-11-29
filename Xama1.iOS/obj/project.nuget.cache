@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Au1Ve6qqi7fLikfj7Rj9TqM8javHnrRm9BqRAD+B/LZ7XuojoJge6xopGV0UL9dajJx/qcao1Asr6M0vV6JWag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zoria\\OneDrive\\Escritorio\\Xamarin\\Xama1\\Xama1.iOS\\Xama1.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zoria\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\zoria\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\zoria\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
