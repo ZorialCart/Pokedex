@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xama1.View;
+using Xama1.View.Pokemon;
 
 namespace Xama1
 {
@@ -10,8 +11,7 @@ namespace Xama1
         public App()
         {
             InitializeComponent();
-
-            MainPage = new NavigationPage( new MainMenu());
+            MainPage = new NavigationPage( new PokemonList());
         }
 
         protected override void OnStart()

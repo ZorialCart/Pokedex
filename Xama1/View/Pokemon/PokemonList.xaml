@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xama1.View.Pokemon.PokemonList" NavigationPage.HasNavigationBar="False">
+    <Grid RowDefinitions="80,*" BackgroundColor="#F5F6F6">
+        <Label Text="POKEDEX" VerticalOptions="Center" HorizontalOptions="Center"
+               FontAttributes="Bold" TextColor="#FD8298" FontSize="28"></Label>
+        <CollectionView Background="#EAEDEC" Grid.Row="1">
+        </CollectionView>
+        <Button Text="+" Grid.Row="1" HeightRequest="60" WidthRequest="60" VerticalOptions="End" HorizontalOptions="End" CornerRadius="50"
+                Margin="15" FontSize="25" FontAttributes="Bold" BackgroundColor="#a3e4d7" Command="{Binding RegistrerCommand}"></Button>
+    </Grid>
+</ContentPage>

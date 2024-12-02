@@ -7,6 +7,7 @@ using System.Windows.Input;
 using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 
 namespace Xama1.ViewModel
@@ -71,7 +72,7 @@ namespace Xama1.ViewModel
             string module;
             module = parameters.Module;
 
-            if (module.Contains("Entry, DatePicker, Picker"))
+            if (module.Contains("Entry, datapicker"))
             {
                 await Navigation.PushAsync(new Page1());
             }
@@ -90,7 +91,7 @@ namespace Xama1.ViewModel
 
 
         #region COMMANDS
-        public ICommand Backcommand => new Command(async () => await Back());
+        //public ICommand Backcommand => new Command(async () => await Back());
         public ICommand NavPageCommand => new Command<MMainMenu>(async (p) => await NavPage(p));
         //public ICommand SimpleProcesscommand => new Command(SimpleProcess);
         #endregion

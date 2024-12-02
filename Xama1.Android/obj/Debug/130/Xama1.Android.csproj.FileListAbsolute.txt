@@ -637,3 +637,8 @@ C:\Users\zoria\OneDrive\Escritorio\Xamarin\Xama1\Xama1.Android\obj\Debug\130\sta
 C:\Users\zoria\OneDrive\Escritorio\Xamarin\Xama1\Xama1.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\zoria\OneDrive\Escritorio\Xamarin\Xama1\Xama1.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\zoria\OneDrive\Escritorio\Xamarin\Xama1\Xama1.Android\obj\Debug\130\res\drawable\back.png
+C:\Users\zoria\OneDrive\Escritorio\Xamarin\Xama1\Xama1.Android\obj\Debug\130\android\assets\Firebase.dll
+C:\Users\zoria\OneDrive\Escritorio\Xamarin\Xama1\Xama1.Android\obj\Debug\130\android\assets\LiteDB.dll
+C:\Users\zoria\OneDrive\Escritorio\Xamarin\Xama1\Xama1.Android\obj\Debug\130\android\assets\Newtonsoft.Json.dll
+C:\Users\zoria\OneDrive\Escritorio\Xamarin\Xama1\Xama1.Android\obj\Debug\130\android\assets\System.Reactive.dll
+C:\Users\zoria\OneDrive\Escritorio\Xamarin\Xama1\Xama1.Android\obj\Debug\130\android\assets\System.Runtime.InteropServices.WindowsRuntime.dll

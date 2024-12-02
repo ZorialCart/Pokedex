@@ -5,6 +5,11 @@
     <Grid>
         <CollectionView ItemsSource="{Binding pagelist}" VerticalOptions="Center"
                       Margin="20,80,20,0" x:Name="listpages">
+            <CollectionView.Header>
+                <StackLayout>
+                    <Label Text="Pages" FontAttributes="Bold" FontSize="40"></Label>
+                </StackLayout>
+            </CollectionView.Header>
             <CollectionView.ItemsLayout>
                 <GridItemsLayout Orientation="Vertical" Span="1" VerticalItemSpacing="20"/>
             </CollectionView.ItemsLayout>

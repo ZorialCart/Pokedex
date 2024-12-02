@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Xama1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc90023c5d46ab2511eaac506ba742132c9effba")]
 [assembly: System.Reflection.AssemblyProductAttribute("Xama1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Xama1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

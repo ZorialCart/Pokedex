@@ -3,7 +3,11 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Xama1.Android.dll" comes first in this list. */
 		"Xama1.Android.dll",
+		"Firebase.dll",
 		"FormsViewGroup.dll",
+		"LiteDB.dll",
+		"Newtonsoft.Json.dll",
+		"System.Reactive.dll",
 		"Xama1.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
