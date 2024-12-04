@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xama1.View.Page1"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid BackgroundColor="#5499c7">
+        <Image Source="https://i.ibb.co/r6d9rnQ/volver.png" VerticalOptions="Start"
+       HeightRequest="30" HorizontalOptions="Start" Margin="10"
+       >
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding Backcommand}"></TapGestureRecognizer>
+            </Image.GestureRecognizers>
+        </Image>
+        <StackLayout VerticalOptions="Center">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="Numero 1:"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"></Label>
+                <Entry PlaceholderColor="White"
+                       Placeholder="Ingrese un numero"
+                       HorizontalOptions="StartAndExpand" TextColor="White"
+                       Text="{Binding N1}" Keyboard="Numeric">
+                </Entry>
+            </StackLayout>
+            <StackLayout VerticalOptions="Center">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label Text="Numero 2:"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"></Label>
+                    <Entry PlaceholderColor="White"
+                       Placeholder="Ingrese un numero"
+                       HorizontalOptions="StartAndExpand" TextColor="White"
+                       Text="{Binding N2}" Keyboard="Numeric">
+                    </Entry>
+                </StackLayout>
+            </StackLayout>
+            <Button Text="Sumar"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        Command="{Binding Sumcommand}" TextTransform="None"
+        BorderColor="#e5e7e9" FontAttributes="Bold" CornerRadius="5"></Button>
+            <Label Text="{Binding R}"
+           TextColor="White" HorizontalOptions="Center" FontAttributes="Bold"
+           FontSize="30">
+            </Label>
+            <Button Text="Siguiente pagina" HorizontalOptions="Center" CornerRadius="5"
+                    BackgroundColor="White" FontAttributes="Bold"
+                    Command="{Binding NavPag2command}"></Button>
+            <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+                <Label TextColor="white" FontAttributes="Bold"
+                       Text="Picker:" VerticalOptions="Center"></Label>
+                <Picker TextColor="White" HorizontalOptions="FillAndExpand"
+                        Title="Seleccione una opcion:" TitleColor="White"
+                        SelectedItem="{Binding SelectUserType}">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Administrador</x:String>
+                            <x:String>Empleado</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center">
+                <DatePicker TextColor="White" Date="{Binding Date}">
+                    <DatePicker.Format>dd/MM/yyyy</DatePicker.Format>
+                </DatePicker>
+                <Label Text="{Binding ResultDate, Mode=TwoWay}" TextColor="White"
+                       FontAttributes="Bold" FontSize="20"></Label>
+            </StackLayout>
+            
+            
+        </StackLayout>
+        
+    </Grid>
+</ContentPage>

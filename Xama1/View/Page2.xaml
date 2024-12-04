@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xama1.View.Page2" NavigationPage.HasNavigationBar="False">
+    <Grid>
+        <Image Source="https://i.ibb.co/r6d9rnQ/volver.png" VerticalOptions="Start"
+               HeightRequest="30" HorizontalOptions="Start" Margin="10"
+               >
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding Backcommand}"></TapGestureRecognizer>
+            </Image.GestureRecognizers>
+        </Image>
+        <CollectionView ItemsSource="{Binding userlist}" VerticalOptions="Center"
+                        Margin="20,80,20,0" x:Name="userslist">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" Span="1" VerticalItemSpacing="20"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                        <Frame CornerRadius="15" BackgroundColor="#af7ac5">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding Image}" HeightRequest="100"></Image>
+                                <Label Text="{Binding Name}" VerticalOptions="Center"
+                                       FontSize="15"
+                                       FontAttributes="Bold"></Label>
+
+                            </StackLayout>
+
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Path=BindingContext.AlertCommand,
+                                    Source={x:Reference userslist}}" CommandParameter="{Binding .}">
+                                
+                                </TapGestureRecognizer>
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                    </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

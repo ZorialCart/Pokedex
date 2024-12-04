@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xama1.View.MainMenu" NavigationPage.HasNavigationBar="False">
+    <Grid>
+        <CollectionView ItemsSource="{Binding pagelist}" VerticalOptions="Center"
+                      Margin="10,-100,10,0" x:Name="listpages">
+            <CollectionView.Header>
+                <StackLayout>
+                    <Image Source="https://i.ibb.co/r6d9rnQ/volver.png" HeightRequest="25"
+                        HorizontalOptions="Start"
+                        Margin="10,20,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Backcommand}"></TapGestureRecognizer>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Menu" FontAttributes="Bold" FontSize="40"></Label>
+                </StackLayout>
+            </CollectionView.Header>
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" Span="1" VerticalItemSpacing="20"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="15" BackgroundColor="#af7ac5">
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="{Binding Icon}" HeightRequest="100"></Image>
+                            <Label Text="{Binding Module}" VerticalOptions="Center"
+                                     FontSize="15"
+                                     FontAttributes="Bold"></Label>
+
+                        </StackLayout>
+
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Path=BindingContext.NavPageCommand,
+                                  Source={x:Reference listpages}}" CommandParameter="{Binding .}">
+
+                            </TapGestureRecognizer>
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

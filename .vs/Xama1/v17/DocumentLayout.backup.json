@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\viewmodel\\vmdetailspokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\viewmodel\\vmdetailspokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\view\\pokemon\\pokemondetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\view\\pokemon\\pokemondetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\view\\pokemon\\pokemondetails.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\view\\pokemon\\pokemondetails.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\viewmodel\\vmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\viewmodel\\vmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\view\\pokemon\\pokemonlist.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\view\\pokemon\\pokemonlist.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\view\\mainmenu.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\view\\mainmenu.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\viewmodel\\vmpokemon\\vmlistpokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\viewmodel\\vmpokemon\\vmlistpokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\view\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\view\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\view\\pokemon\\pokemonregister.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\view\\pokemon\\pokemonregister.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\viewmodel\\vmpage1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\viewmodel\\vmpage1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\view\\page2.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\view\\page2.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\view\\page1.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\view\\page1.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\view\\pokedex.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\view\\pokedex.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|c:\\users\\usuario\\desktop\\projects\\pokedex\\xama1\\viewmodel\\vmpage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07F4775-FD6E-4BE5-9E6D-5DA217CE93AA}|Xama1\\Xama1.csproj|solutionrelative:xama1\\viewmodel\\vmpage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\MainMenu.xaml",
+              "RelativeDocumentMoniker": "Xama1\\View\\MainMenu.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\MainMenu.xaml",
+              "RelativeToolTip": "Xama1\\View\\MainMenu.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T15:44:46.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Page2.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Page2.xaml",
+              "RelativeDocumentMoniker": "Xama1\\View\\Page2.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Page2.xaml",
+              "RelativeToolTip": "Xama1\\View\\Page2.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T16:01:23.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VMMainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\ViewModel\\VMMainMenu.cs",
+              "RelativeDocumentMoniker": "Xama1\\ViewModel\\VMMainMenu.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\ViewModel\\VMMainMenu.cs",
+              "RelativeToolTip": "Xama1\\ViewModel\\VMMainMenu.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAYwDIAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:46:44.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VMDetailsPokemon.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\ViewModel\\VMDetailsPokemon.cs",
+              "RelativeDocumentMoniker": "Xama1\\ViewModel\\VMDetailsPokemon.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\ViewModel\\VMDetailsPokemon.cs",
+              "RelativeToolTip": "Xama1\\ViewModel\\VMDetailsPokemon.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:46:33.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PokemonDetails.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Pokemon\\PokemonDetails.xaml.cs",
+              "RelativeDocumentMoniker": "Xama1\\View\\Pokemon\\PokemonDetails.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Pokemon\\PokemonDetails.xaml.cs",
+              "RelativeToolTip": "Xama1\\View\\Pokemon\\PokemonDetails.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:35:16.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PokemonDetails.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Pokemon\\PokemonDetails.xaml",
+              "RelativeDocumentMoniker": "Xama1\\View\\Pokemon\\PokemonDetails.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Pokemon\\PokemonDetails.xaml",
+              "RelativeToolTip": "Xama1\\View\\Pokemon\\PokemonDetails.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T15:47:59.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PokemonRegister.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Pokemon\\PokemonRegister.xaml",
+              "RelativeDocumentMoniker": "Xama1\\View\\Pokemon\\PokemonRegister.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Pokemon\\PokemonRegister.xaml",
+              "RelativeToolTip": "Xama1\\View\\Pokemon\\PokemonRegister.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T16:05:15.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PokemonList.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Pokemon\\PokemonList.xaml",
+              "RelativeDocumentMoniker": "Xama1\\View\\Pokemon\\PokemonList.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Pokemon\\PokemonList.xaml",
+              "RelativeToolTip": "Xama1\\View\\Pokemon\\PokemonList.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T15:58:55.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\MainMenu.xaml.cs",
+              "RelativeDocumentMoniker": "Xama1\\View\\MainMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\MainMenu.xaml.cs",
+              "RelativeToolTip": "Xama1\\View\\MainMenu.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:00:17.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VMPage1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\ViewModel\\VMPage1.cs",
+              "RelativeDocumentMoniker": "Xama1\\ViewModel\\VMPage1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\ViewModel\\VMPage1.cs",
+              "RelativeToolTip": "Xama1\\ViewModel\\VMPage1.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:46:01.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VMListPokemon.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\ViewModel\\VMPokemon\\VMListPokemon.cs",
+              "RelativeDocumentMoniker": "Xama1\\ViewModel\\VMPokemon\\VMListPokemon.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\ViewModel\\VMPokemon\\VMListPokemon.cs",
+              "RelativeToolTip": "Xama1\\ViewModel\\VMPokemon\\VMListPokemon.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAMwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:40:20.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VMPage2.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\ViewModel\\VMPage2.cs",
+              "RelativeDocumentMoniker": "Xama1\\ViewModel\\VMPage2.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\ViewModel\\VMPage2.cs",
+              "RelativeToolTip": "Xama1\\ViewModel\\VMPage2.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwC4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:48:57.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Pokedex.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Pokedex.xaml",
+              "RelativeDocumentMoniker": "Xama1\\View\\Pokedex.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Pokedex.xaml",
+              "RelativeToolTip": "Xama1\\View\\Pokedex.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T16:01:06.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Page1.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Page1.xaml",
+              "RelativeDocumentMoniker": "Xama1\\View\\Page1.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Projects\\Pokedex\\Xama1\\View\\Page1.xaml",
+              "RelativeToolTip": "Xama1\\View\\Page1.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T15:45:31.661Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xama1.View.Pokemon.PokemonDetails"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame">
+    <Grid x:Name="a">
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="1,0">
+                <GradientStop Color="{Binding parametersRec.PowerColor}" Offset="0.1"/>
+                <GradientStop Color="{Binding parametersRec.Background}"  Offset="0.8"></GradientStop>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <StackLayout Margin="10,0,10,0">
+            <Image Source="https://i.ibb.co/r6d9rnQ/volver.png" HeightRequest="25"
+                   HorizontalOptions="Start"
+                   Margin="10,20,0,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding Backcommand}"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="{Binding parametersRec.No}"
+                   FontSize="40"
+                   TextColor="White"
+                   FontAttributes="Bold"/>
+            <Image Source="{Binding parametersRec.Icon}"
+                   HeightRequest="300"/>
+            <Label Text="{Binding parametersRec.Name}" FontSize="35" FontAttributes="Bold"
+                   TextColor="White" HorizontalOptions="Center"/>
+            <Grid RowDefinitions="auto, auto">
+                <sharpnado:MaterialFrame
+                    CornerRadius="15"
+                    MaterialBlurStyle="Light"
+                    MaterialTheme="AcrylicBlur"
+                    Grid.RowSpan="2"/>
+                <StackLayout Orientation="Horizontal"
+                             Margin="20,5,20,5">
+                    <StackLayout>
+                        <Label Text="{Binding parametersRec.Power}" 
+                               FontSize="29 "
+                               TextColor="White"
+                               FontAttributes="Bold"/>
+                        <Label Text="Power"
+                               TextColor="White"
+                               HorizontalOptions="Center"/>
+
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="CenterAndExpand">
+                        <StackLayout Orientation="Horizontal"
+                                     VerticalOptions="CenterAndExpand">
+                            <BoxView HeightRequest="29"
+                             WidthRequest="29"
+                             BackgroundColor="{Binding parametersRec.PowerColor}"
+                             CornerRadius="15" VerticalOptions="Center"/>
+                            <BoxView HeightRequest="29"
+                             WidthRequest="29"
+                             BackgroundColor="{Binding parametersRec.Background}"
+                             CornerRadius="15" VerticalOptions="Center"/>
+                        </StackLayout>
+
+                        <Label Text="Colors"
+                               TextColor="White"
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="{Binding parametersRec.No}" 
+                           FontSize="30 "
+                           TextColor="White"
+                           FontAttributes="Bold"/>
+                        <Label Text="Order"
+                           TextColor="White"
+                           HorizontalOptions="Center"/>
+
+                    </StackLayout>
+                </StackLayout>
+                <Image Source="https://i.ibb.co/tC1FVWt/Titulo-Universo-Pok-mon.png"
+                       HeightRequest="85"
+                       Grid.Row="1"/>
+            </Grid>
+            <Frame CornerRadius="30" 
+                   Margin="0,20,0,0"
+                   HeightRequest="65"
+                   Padding="0">
+            <Grid   ColumnDefinitions="*,*">
+                    <Button Text="Follow" 
+                        BackgroundColor="#5ADF77" CornerRadius="30"
+                            FontAttributes="Bold"
+                            Margin="-5,0,0,0"/>
+                    <StackLayout Grid.Column="1" Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="https://i.ibb.co/z67TBnR/tubo-de-sangre.png"
+                                   HeightRequest="40" Margin="0,0,-10,0"/>
+                            <Label Text="YouTube" VerticalOptions="Center"
+                                   FontAttributes="Bold"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="{Binding parametersRec.Icon}"
+                            HeightRequest="40"/>
+                            <Label Text="Fb" VerticalOptions="Center"
+                            FontAttributes="Bold"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </Grid>
+</ContentPage>
